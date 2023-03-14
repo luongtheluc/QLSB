@@ -1,0 +1,90 @@
+﻿@model IEnumerable<WebAppQuanLyBongDa.Models.SAN>
+@{
+    ViewBag.Title = "SanBong";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h4 class="card-title">SƠ ĐỒ SÂN BÓNG</h4>
+                    </div>
+                    <div class="card-body" style="padding-top: 20px">
+                        <div class="row">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-sm-2">
+                                    @if (item.TRANGTHAI == "1")
+                                    {
+                                        <a href="" id="sanbong" class="btn btn-default" style="width: 100px; height: 40px;background-color:red">
+                                            @item.TENSAN
+
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        if (item.TRANGTHAI == "2")
+                                        {
+                                            <a href="" id="sanbong" class="btn btn-default" style="width: 100px; height: 40px;background-color:yellow">
+                                                @item.TENSAN
+
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            if (item.TRANGTHAI == "3")
+                                            {
+                                                <a href="" id="sanbong" class="btn btn-default" style="width: 100px; height: 40px;background-color:orange">
+                                                    @item.TENSAN
+
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <a href="" id="sanbong" class="btn btn-default" style="width: 100px; height: 40px;">
+                                                    @item.TENSAN
+
+                                                </a>
+                                            }
+                                        }
+                                    }
+
+                                </div>
+
+                            }
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4><strong>Ghi chú:</strong></h4>
+                </div>
+                <div class="card-body" style="padding-top: 20px">
+                    <!-- HTML !-->
+                    <button class="button-7" role="button" style="background-color: white; display: block; margin-bottom: 10px">Sân trống</button>
+                    <button class="button-7" role="button" style="background-color: red; display: block; margin-bottom: 10px">Sân đã được đặt</button>
+                    <button class="button-7" role="button" style="background-color: yellow; display: block; margin-bottom: 10px">Sân đang có người đặt</button>
+                    <button class="button-7" role="button" style="background-color: orangered">Sân đang bảo trì</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<script>
+    function Dongho() {
+        var today = new Date();
+        var gio = today.getHours();
+        var phut = today.getMinutes();
+        var giay = today.getSeconds();
+
+        //Cập nhật lại thời gian sau 1 giây
+        setTimeout("Dongho()", 1000);
+        var thongtin = gio + ":" + phut + ":" + giay;
+        document.getElementById('time').innerHTML = thongtin;
+    }
+</script>
+

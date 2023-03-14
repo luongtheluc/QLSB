@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebAppQuanLyBongDa.Models.DICHVU>
+@{
+    ViewBag.Title = "Danh sách dịch vụ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 20px; margin-left: 10px">DANH SÁCH DỊCH VỤ</h2>
+
+<p style="margin-left: 10px">
+    @Html.ActionLink("Tạo mới", "ThemDichVu", "Admin", new { @class = "btn btn-success" })
+</p>
+<table class="table table-bordered" border="1" style=" padding-top: 30px; margin-left: 10px; margin-right: 20px">
+    <tr>
+        <th style="text-align: center">
+            Mã dịch vụ
+        </th>
+        <th style="text-align: center">
+            Tên dịch vụ
+        </th>
+        <th style="text-align: center">
+            Giá tiền dịch vụ
+        </th>
+        <th style="text-align: center">
+            Chức năng
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.MADICHVU)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.TENDICHVU)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.GIATIEN)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Sửa", "SuaDichVu", new { id = item.MADICHVU }, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Chi tiết", "ChiTietDichVu", new { id = item.MADICHVU }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Xóa", "XoaDichVu", new { id = item.MADICHVU }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+</table>
+

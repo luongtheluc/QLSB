@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "DoanhThu";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 20px; margin-left: 10px">BÁO CÁO DOANH THU</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="text-align: center">TÊN SÂN</th>
+            <th style="text-align: center">MÃ PHIẾU THANH TOÁN</th>
+            <th style="text-align: center">TỔNG TIỀN</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.chitietphieudatsans)
+        {
+            <tr>
+                <td>@item.SAN.TENSAN</td>
+                <td>@item.MAPTT</td>
+                <td>@item.PHIEUTHANHTOAN.TONGTIEN</td>
+               
+            </tr>
+        }
+    </tbody>
+</table>

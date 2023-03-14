@@ -1,0 +1,42 @@
+﻿@model WebAppQuanLyBongDa.Models.DICHVU
+@{
+    ViewBag.Title = "Sửa dịch vụ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 30px; margin-left: 25px; font-weight: bold">SỬA DỊCH VỤ</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.MADICHVU)
+
+        <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+            @Html.LabelFor(model => model.TENDICHVU, "Tên dịch vụ", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TENDICHVU, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TENDICHVU, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+            @Html.LabelFor(model => model.GIATIEN, "Giá tiền dịch vụ", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GIATIEN, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.GIATIEN, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+            <div style="padding-top: 20px" class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Lưu" class="btn btn-success" />
+                @Html.ActionLink("Quay về", "DanhSachDichVu", "Admin", new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    </div>
+}
+

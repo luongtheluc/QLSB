@@ -1,0 +1,504 @@
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll.config
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.pdb
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe.config
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.rsp
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe.config
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.rsp
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Managed.Core.targets
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.AppContext.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Collections.Immutable.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Console.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Globalization.Calendars.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Http.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Sockets.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Reflection.Metadata.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.ValueTuple.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XmlDocument.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe.config
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.rsp
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe.config
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.Web.Infrastructure.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebGrease.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.pdb
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.AssemblyReference.cache
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CoreCompileInputs.cache
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CopyComplete
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.pdb
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.dll
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.xml
+D:\source_dacn\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll.config
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.pdb
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.rsp
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.rsp
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Console.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.rsp
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebGrease.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.dll
+C:\Users\Admin\OneDrive\Desktop\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.pdb
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll.config
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.pdb
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe.config
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.rsp
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe.config
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.rsp
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Console.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe.config
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.rsp
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebGrease.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.pdb
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EnvDTE.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\stdole.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\OneDrive\Desktop\New folder\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x64\msvcr120.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x86\msvcr120.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll.config
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebAppQuanLyBongDa.pdb
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.exe.config
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csc.rsp
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.exe.config
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\csi.rsp
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Managed.Core.targets
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.AppContext.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Collections.Immutable.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Console.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Globalization.Calendars.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Http.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Net.Sockets.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Reflection.Metadata.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.ValueTuple.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.exe.config
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\vbc.rsp
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\roslyn\VBCSCompiler.exe.config
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.Common.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.Design.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WebDesign.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WebForms.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.ReportViewer.WinForms.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.SqlServer.Types.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.Web.Infrastructure.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\WebGrease.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EnvDTE.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\stdole.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\EntityFramework.SqlServer.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Net.Http.Formatting.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Http.WebHost.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Newtonsoft.Json.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Helpers.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Mvc.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Optimization.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.Razor.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Deployment.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\System.Web.WebPages.Razor.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Antlr3.Runtime.pdb
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.AssemblyReference.cache
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CoreCompileInputs.cache
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.csproj.CopyComplete
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.dll
+E:\WebAppQuanLyBongDa\WebAppQuanLyBongDa\obj\Debug\WebAppQuanLyBongDa.pdb

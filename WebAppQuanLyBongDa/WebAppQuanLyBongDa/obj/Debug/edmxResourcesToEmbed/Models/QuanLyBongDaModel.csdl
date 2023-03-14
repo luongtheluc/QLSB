@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HETHONGBONGDAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHITIET_DICHVU">
+    <Key>
+      <PropertyRef Name="MADICHVU" />
+      <PropertyRef Name="MAPTT" />
+    </Key>
+    <Property Name="MADICHVU" Type="Int32" Nullable="false" />
+    <Property Name="MAPTT" Type="Int32" Nullable="false" />
+    <Property Name="SOLANSUDUNG" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DICHVU" Relationship="Self.FK_CHITIET_DICHVU_DICHVU" FromRole="CHITIET_DICHVU" ToRole="DICHVU" />
+    <NavigationProperty Name="PHIEUTHANHTOAN" Relationship="Self.FK_CHITIET_DICHVU_PHIEUTHANHTOAN" FromRole="CHITIET_DICHVU" ToRole="PHIEUTHANHTOAN" />
+  </EntityType>
+  <EntityType Name="CHITIET_PHIEUDATSAN">
+    <Key>
+      <PropertyRef Name="MASAN" />
+      <PropertyRef Name="MAPDS" />
+    </Key>
+    <Property Name="MASAN" Type="Int32" Nullable="false" />
+    <Property Name="MAPDS" Type="Int32" Nullable="false" />
+    <Property Name="MAKHUNGGIO" Type="Int32" />
+    <Property Name="MADICHVU" Type="Int32" />
+    <Property Name="MAPTT" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DICHVU" Relationship="Self.FK_CHITIET_PHIEUDATSAN_DICHVU" FromRole="CHITIET_PHIEUDATSAN" ToRole="DICHVU" />
+    <NavigationProperty Name="GIO" Relationship="Self.FK_CHITIET_PHIEUDATSAN_GIO" FromRole="CHITIET_PHIEUDATSAN" ToRole="GIO" />
+    <NavigationProperty Name="PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN" FromRole="CHITIET_PHIEUDATSAN" ToRole="PHIEUDATSAN" />
+    <NavigationProperty Name="PHIEUTHANHTOAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN" FromRole="CHITIET_PHIEUDATSAN" ToRole="PHIEUTHANHTOAN" />
+    <NavigationProperty Name="SAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_SAN" FromRole="CHITIET_PHIEUDATSAN" ToRole="SAN" />
+  </EntityType>
+  <EntityType Name="DICHVU">
+    <Key>
+      <PropertyRef Name="MADICHVU" />
+    </Key>
+    <Property Name="MADICHVU" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENDICHVU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GIATIEN" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CHITIET_DICHVU" Relationship="Self.FK_CHITIET_DICHVU_DICHVU" FromRole="DICHVU" ToRole="CHITIET_DICHVU" />
+    <NavigationProperty Name="CHITIET_PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_DICHVU" FromRole="DICHVU" ToRole="CHITIET_PHIEUDATSAN" />
+  </EntityType>
+  <EntityType Name="GIO">
+    <Key>
+      <PropertyRef Name="MAKHUNGGIO" />
+    </Key>
+    <Property Name="MAKHUNGGIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GIOBATDAU" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="GIOKETTHUC" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="CHITIET_PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_GIO" FromRole="GIO" ToRole="CHITIET_PHIEUDATSAN" />
+    <NavigationProperty Name="TINHTRANGSANs" Relationship="Self.FK_TINHTRANGSAN_GIO" FromRole="GIO" ToRole="TINHTRANGSAN" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="MAKH" />
+    </Key>
+    <Property Name="MAKH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SDTKH" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DIACHIKH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MATK" Type="Int32" />
+    <NavigationProperty Name="TAIKHOAN" Relationship="Self.FK_KHACHHANG_TAIKHOAN" FromRole="KHACHHANG" ToRole="TAIKHOAN" />
+    <NavigationProperty Name="PHIEUDATSANs" Relationship="Self.FK_PHIEUDATSAN_KHACHHANG" FromRole="KHACHHANG" ToRole="PHIEUDATSAN" />
+  </EntityType>
+  <EntityType Name="LOAISAN">
+    <Key>
+      <PropertyRef Name="MALOAISAN" />
+    </Key>
+    <Property Name="MALOAISAN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENLOAISAN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GIATIEN" Type="Int32" />
+    <NavigationProperty Name="SANs" Relationship="Self.FK_SAN_LOAISAN" FromRole="LOAISAN" ToRole="SAN" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MANV" />
+    </Key>
+    <Property Name="MANV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SDTNV" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMAILNV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CHUCVU" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PHIEUDATSANs" Relationship="Self.FK_PHIEUDATSAN_NHANVIEN" FromRole="NHANVIEN" ToRole="PHIEUDATSAN" />
+    <NavigationProperty Name="PHIEUTHANHTOANs" Relationship="Self.FK_PHIEUTHANHTOAN_NHANVIEN" FromRole="NHANVIEN" ToRole="PHIEUTHANHTOAN" />
+  </EntityType>
+  <EntityType Name="PHIEUDATSAN">
+    <Key>
+      <PropertyRef Name="MAPDS" />
+    </Key>
+    <Property Name="MAPDS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NGAYDATSAN" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="GIODATSAN" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NGAYLAPPDS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MAKH" Type="Int32" Nullable="false" />
+    <Property Name="MANV" Type="Int32" />
+    <NavigationProperty Name="CHITIET_PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN" FromRole="PHIEUDATSAN" ToRole="CHITIET_PHIEUDATSAN" />
+    <NavigationProperty Name="KHACHHANG" Relationship="Self.FK_PHIEUDATSAN_KHACHHANG" FromRole="PHIEUDATSAN" ToRole="KHACHHANG" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Self.FK_PHIEUDATSAN_NHANVIEN" FromRole="PHIEUDATSAN" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="PHIEUTHANHTOAN">
+    <Key>
+      <PropertyRef Name="MAPTT" />
+    </Key>
+    <Property Name="MAPTT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NGAYLAPPTT" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TONGTIEN" Type="Int32" Nullable="false" />
+    <Property Name="MANV" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CHITIET_DICHVU" Relationship="Self.FK_CHITIET_DICHVU_PHIEUTHANHTOAN" FromRole="PHIEUTHANHTOAN" ToRole="CHITIET_DICHVU" />
+    <NavigationProperty Name="CHITIET_PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN" FromRole="PHIEUTHANHTOAN" ToRole="CHITIET_PHIEUDATSAN" />
+    <NavigationProperty Name="NHANVIEN" Relationship="Self.FK_PHIEUTHANHTOAN_NHANVIEN" FromRole="PHIEUTHANHTOAN" ToRole="NHANVIEN" />
+  </EntityType>
+  <EntityType Name="SAN">
+    <Key>
+      <PropertyRef Name="MASAN" />
+    </Key>
+    <Property Name="MASAN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENSAN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TRANGTHAI" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MALOAISAN" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CHITIET_PHIEUDATSAN" Relationship="Self.FK_CHITIET_PHIEUDATSAN_SAN" FromRole="SAN" ToRole="CHITIET_PHIEUDATSAN" />
+    <NavigationProperty Name="LOAISAN" Relationship="Self.FK_SAN_LOAISAN" FromRole="SAN" ToRole="LOAISAN" />
+    <NavigationProperty Name="TINHTRANGSANs" Relationship="Self.FK_TINHTRANGSAN_SAN" FromRole="SAN" ToRole="TINHTRANGSAN" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="MATK" />
+    </Key>
+    <Property Name="MATK" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENTK" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MATKHAU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TENHIENTHI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VAITRO" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="KHACHHANGs" Relationship="Self.FK_KHACHHANG_TAIKHOAN" FromRole="TAIKHOAN" ToRole="KHACHHANG" />
+  </EntityType>
+  <EntityType Name="TINHTRANGSAN">
+    <Key>
+      <PropertyRef Name="MATINHTRANGSAN" />
+    </Key>
+    <Property Name="MATINHTRANGSAN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MASAN" Type="Int32" />
+    <Property Name="MAKHUNGGIO" Type="Int32" />
+    <Property Name="TRANGTHAI" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GIO" Relationship="Self.FK_TINHTRANGSAN_GIO" FromRole="TINHTRANGSAN" ToRole="GIO" />
+    <NavigationProperty Name="SAN" Relationship="Self.FK_TINHTRANGSAN_SAN" FromRole="TINHTRANGSAN" ToRole="SAN" />
+  </EntityType>
+  <Association Name="FK_CHITIET_DICHVU_DICHVU">
+    <End Role="DICHVU" Type="Self.DICHVU" Multiplicity="1" />
+    <End Role="CHITIET_DICHVU" Type="Self.CHITIET_DICHVU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DICHVU">
+        <PropertyRef Name="MADICHVU" />
+      </Principal>
+      <Dependent Role="CHITIET_DICHVU">
+        <PropertyRef Name="MADICHVU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_DICHVU_PHIEUTHANHTOAN">
+    <End Role="PHIEUTHANHTOAN" Type="Self.PHIEUTHANHTOAN" Multiplicity="1" />
+    <End Role="CHITIET_DICHVU" Type="Self.CHITIET_DICHVU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MAPTT" />
+      </Principal>
+      <Dependent Role="CHITIET_DICHVU">
+        <PropertyRef Name="MAPTT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_PHIEUDATSAN_DICHVU">
+    <End Role="DICHVU" Type="Self.DICHVU" Multiplicity="0..1" />
+    <End Role="CHITIET_PHIEUDATSAN" Type="Self.CHITIET_PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DICHVU">
+        <PropertyRef Name="MADICHVU" />
+      </Principal>
+      <Dependent Role="CHITIET_PHIEUDATSAN">
+        <PropertyRef Name="MADICHVU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_PHIEUDATSAN_GIO">
+    <End Role="GIO" Type="Self.GIO" Multiplicity="0..1" />
+    <End Role="CHITIET_PHIEUDATSAN" Type="Self.CHITIET_PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIO">
+        <PropertyRef Name="MAKHUNGGIO" />
+      </Principal>
+      <Dependent Role="CHITIET_PHIEUDATSAN">
+        <PropertyRef Name="MAKHUNGGIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN">
+    <End Role="PHIEUDATSAN" Type="Self.PHIEUDATSAN" Multiplicity="1" />
+    <End Role="CHITIET_PHIEUDATSAN" Type="Self.CHITIET_PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHIEUDATSAN">
+        <PropertyRef Name="MAPDS" />
+      </Principal>
+      <Dependent Role="CHITIET_PHIEUDATSAN">
+        <PropertyRef Name="MAPDS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN">
+    <End Role="PHIEUTHANHTOAN" Type="Self.PHIEUTHANHTOAN" Multiplicity="1" />
+    <End Role="CHITIET_PHIEUDATSAN" Type="Self.CHITIET_PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MAPTT" />
+      </Principal>
+      <Dependent Role="CHITIET_PHIEUDATSAN">
+        <PropertyRef Name="MAPTT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIET_PHIEUDATSAN_SAN">
+    <End Role="SAN" Type="Self.SAN" Multiplicity="1" />
+    <End Role="CHITIET_PHIEUDATSAN" Type="Self.CHITIET_PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SAN">
+        <PropertyRef Name="MASAN" />
+      </Principal>
+      <Dependent Role="CHITIET_PHIEUDATSAN">
+        <PropertyRef Name="MASAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TINHTRANGSAN_GIO">
+    <End Role="GIO" Type="Self.GIO" Multiplicity="0..1" />
+    <End Role="TINHTRANGSAN" Type="Self.TINHTRANGSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIO">
+        <PropertyRef Name="MAKHUNGGIO" />
+      </Principal>
+      <Dependent Role="TINHTRANGSAN">
+        <PropertyRef Name="MAKHUNGGIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KHACHHANG_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="0..1" />
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="MATK" />
+      </Principal>
+      <Dependent Role="KHACHHANG">
+        <PropertyRef Name="MATK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PHIEUDATSAN_KHACHHANG">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="1" />
+    <End Role="PHIEUDATSAN" Type="Self.PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKH" />
+      </Principal>
+      <Dependent Role="PHIEUDATSAN">
+        <PropertyRef Name="MAKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SAN_LOAISAN">
+    <End Role="LOAISAN" Type="Self.LOAISAN" Multiplicity="1" />
+    <End Role="SAN" Type="Self.SAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAISAN">
+        <PropertyRef Name="MALOAISAN" />
+      </Principal>
+      <Dependent Role="SAN">
+        <PropertyRef Name="MALOAISAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PHIEUDATSAN_NHANVIEN">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="PHIEUDATSAN" Type="Self.PHIEUDATSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="PHIEUDATSAN">
+        <PropertyRef Name="MANV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PHIEUTHANHTOAN_NHANVIEN">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="1" />
+    <End Role="PHIEUTHANHTOAN" Type="Self.PHIEUTHANHTOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANV" />
+      </Principal>
+      <Dependent Role="PHIEUTHANHTOAN">
+        <PropertyRef Name="MANV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TINHTRANGSAN_SAN">
+    <End Role="SAN" Type="Self.SAN" Multiplicity="0..1" />
+    <End Role="TINHTRANGSAN" Type="Self.TINHTRANGSAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SAN">
+        <PropertyRef Name="MASAN" />
+      </Principal>
+      <Dependent Role="TINHTRANGSAN">
+        <PropertyRef Name="MASAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIET_DICHVU" EntityType="Self.CHITIET_DICHVU" />
+    <EntitySet Name="CHITIET_PHIEUDATSAN" EntityType="Self.CHITIET_PHIEUDATSAN" />
+    <EntitySet Name="DICHVUs" EntityType="Self.DICHVU" />
+    <EntitySet Name="GIOs" EntityType="Self.GIO" />
+    <EntitySet Name="KHACHHANGs" EntityType="Self.KHACHHANG" />
+    <EntitySet Name="LOAISANs" EntityType="Self.LOAISAN" />
+    <EntitySet Name="NHANVIENs" EntityType="Self.NHANVIEN" />
+    <EntitySet Name="PHIEUDATSANs" EntityType="Self.PHIEUDATSAN" />
+    <EntitySet Name="PHIEUTHANHTOANs" EntityType="Self.PHIEUTHANHTOAN" />
+    <EntitySet Name="SANs" EntityType="Self.SAN" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TAIKHOANs" EntityType="Self.TAIKHOAN" />
+    <EntitySet Name="TINHTRANGSANs" EntityType="Self.TINHTRANGSAN" />
+    <AssociationSet Name="FK_CHITIET_DICHVU_DICHVU" Association="Self.FK_CHITIET_DICHVU_DICHVU">
+      <End Role="DICHVU" EntitySet="DICHVUs" />
+      <End Role="CHITIET_DICHVU" EntitySet="CHITIET_DICHVU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_DICHVU_PHIEUTHANHTOAN" Association="Self.FK_CHITIET_DICHVU_PHIEUTHANHTOAN">
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOANs" />
+      <End Role="CHITIET_DICHVU" EntitySet="CHITIET_DICHVU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_PHIEUDATSAN_DICHVU" Association="Self.FK_CHITIET_PHIEUDATSAN_DICHVU">
+      <End Role="DICHVU" EntitySet="DICHVUs" />
+      <End Role="CHITIET_PHIEUDATSAN" EntitySet="CHITIET_PHIEUDATSAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_PHIEUDATSAN_GIO" Association="Self.FK_CHITIET_PHIEUDATSAN_GIO">
+      <End Role="GIO" EntitySet="GIOs" />
+      <End Role="CHITIET_PHIEUDATSAN" EntitySet="CHITIET_PHIEUDATSAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN" Association="Self.FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN">
+      <End Role="PHIEUDATSAN" EntitySet="PHIEUDATSANs" />
+      <End Role="CHITIET_PHIEUDATSAN" EntitySet="CHITIET_PHIEUDATSAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN" Association="Self.FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN">
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOANs" />
+      <End Role="CHITIET_PHIEUDATSAN" EntitySet="CHITIET_PHIEUDATSAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIET_PHIEUDATSAN_SAN" Association="Self.FK_CHITIET_PHIEUDATSAN_SAN">
+      <End Role="SAN" EntitySet="SANs" />
+      <End Role="CHITIET_PHIEUDATSAN" EntitySet="CHITIET_PHIEUDATSAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TINHTRANGSAN_GIO" Association="Self.FK_TINHTRANGSAN_GIO">
+      <End Role="GIO" EntitySet="GIOs" />
+      <End Role="TINHTRANGSAN" EntitySet="TINHTRANGSANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KHACHHANG_TAIKHOAN" Association="Self.FK_KHACHHANG_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOANs" />
+      <End Role="KHACHHANG" EntitySet="KHACHHANGs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PHIEUDATSAN_KHACHHANG" Association="Self.FK_PHIEUDATSAN_KHACHHANG">
+      <End Role="KHACHHANG" EntitySet="KHACHHANGs" />
+      <End Role="PHIEUDATSAN" EntitySet="PHIEUDATSANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SAN_LOAISAN" Association="Self.FK_SAN_LOAISAN">
+      <End Role="LOAISAN" EntitySet="LOAISANs" />
+      <End Role="SAN" EntitySet="SANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PHIEUDATSAN_NHANVIEN" Association="Self.FK_PHIEUDATSAN_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="PHIEUDATSAN" EntitySet="PHIEUDATSANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PHIEUTHANHTOAN_NHANVIEN" Association="Self.FK_PHIEUTHANHTOAN_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIENs" />
+      <End Role="PHIEUTHANHTOAN" EntitySet="PHIEUTHANHTOANs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TINHTRANGSAN_SAN" Association="Self.FK_TINHTRANGSAN_SAN">
+      <End Role="SAN" EntitySet="SANs" />
+      <End Role="TINHTRANGSAN" EntitySet="TINHTRANGSANs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

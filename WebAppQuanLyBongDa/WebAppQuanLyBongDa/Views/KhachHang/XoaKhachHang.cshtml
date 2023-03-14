@@ -1,0 +1,57 @@
+﻿@model WebAppQuanLyBongDa.Models.KHACHHANG
+@{
+    ViewBag.Title = "XoaKhachHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 30px; margin-left: 25px; font-weight: bold">XÓA KHÁCH HÀNG</h2>
+
+<h3 style="padding-top: 30px; margin-left: 25px; font-weight: bold">Bạn có chắc chắn muốn xóa khách hàng không ?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Mã khách hàng:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.MAKH)
+        </dd>
+
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Tên khách hàng:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.TENKH)
+        </dd>
+
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Số điện thoại khách hàng:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.SDTKH)
+        </dd>
+
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Địa chỉ khách hàng:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.DIACHIKH)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-warning" />
+            @Html.ActionLink("Quay về", "DanhSachKhachHang", "KhachHang", new { @class = "btn btn-info" })
+        </div>
+    }
+</div>
+
+

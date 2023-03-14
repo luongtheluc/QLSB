@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebAppQuanLyBongDa.Models.PHIEUDATSAN>
+@{
+    ViewBag.Title = "Danh sách phiếu đặt sân";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 20px; margin-left: 10px">DANH SÁCH PHIẾU ĐẶT SÂN</h2>
+
+<p style="margin-left: 10px">
+    @Html.ActionLink("Tạo mới", "ThemPhieuDatSan", "Admin", new { @class = "btn btn-success" })
+</p>
+<table class="table table-bordered" border="1" style=" padding-top: 30px; margin-left: 10px; margin-right: 20px">
+    <tr>
+        <th style="text-align: center">
+            Mã phiếu đặt sân
+        </th>
+        <th style="text-align: center">
+            Ngày đặt sân
+        </th>
+        <th style="text-align: center">
+            Giờ thuê sân
+        </th>
+        <th style="text-align: center">
+            Ngày lập phiếu
+        </th>
+        <th style="text-align: center">
+            Tên khách hàng
+        </th>
+        <th style="text-align: center">
+            Tên nhân viên
+        </th>
+        <th style="text-align: center">
+            Chức năng
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.MAPDS)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.NGAYDATSAN)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.GIODATSAN)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.NGAYLAPPDS)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.KHACHHANG.TENKH)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.NHANVIEN.TENNV)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Sửa", "SuaPhieuDatSan", new { id = item.MAPDS }, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Chi tiết", "ChiTietPhieuDatSan", new { id = item.MAPDS }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Xóa", "XoaPhieuDatSan", new { id = item.MAPDS }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+</table>
+
+

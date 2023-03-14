@@ -1,0 +1,41 @@
+﻿@model WebAppQuanLyBongDa.Models.DICHVU
+@{
+    ViewBag.Title = "Xóa dịch vụ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 30px; margin-left: 25px; font-weight: bold">XÓA DỊCH VỤ</h2>
+
+<h3 style="padding-top: 30px; margin-left: 25px; font-weight: bold">Bạn có chắc chắn muốn xóa không ?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Tên dịch vụ:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.TENDICHVU)
+        </dd>
+
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Giá tiền dịch vụ:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.GIATIEN)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-warning" />
+            @Html.ActionLink("Quay về", "DanhSachDichVu", "DichVu", new { @class = "btn btn-info" })
+        </div>
+    }
+</div>
+

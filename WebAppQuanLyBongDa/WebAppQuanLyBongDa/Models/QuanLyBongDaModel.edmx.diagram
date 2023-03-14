@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c95a312e64534276977ce262b237de7b" Name="Diagram1">
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.CHITIET_DICHVU" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.CHITIET_PHIEUDATSAN" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.DICHVU" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.GIO" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.LOAISAN" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.PHIEUDATSAN" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.PHIEUTHANHTOAN" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.SAN" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.sysdiagram" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.TAIKHOAN" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HETHONGBONGDAModel.TINHTRANGSAN" Width="1.5" PointX="5.25" PointY="16.5" IsExpanded="true" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_DICHVU_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_DICHVU_PHIEUTHANHTOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_PHIEUDATSAN_DICHVU" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_PHIEUDATSAN_GIO" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_PHIEUDATSAN_PHIEUDATSAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_PHIEUDATSAN_PHIEUTHANHTOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_CHITIET_PHIEUDATSAN_SAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_TINHTRANGSAN_GIO" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_KHACHHANG_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_PHIEUDATSAN_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_SAN_LOAISAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_PHIEUDATSAN_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_PHIEUTHANHTOAN_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="HETHONGBONGDAModel.FK_TINHTRANGSAN_SAN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

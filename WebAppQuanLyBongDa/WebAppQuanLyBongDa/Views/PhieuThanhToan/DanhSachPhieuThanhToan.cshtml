@@ -1,0 +1,54 @@
+﻿@model IEnumerable<WebAppQuanLyBongDa.Models.PHIEUTHANHTOAN>
+
+@{
+    ViewBag.Title = "DanhSachPhieuThanhToan";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 20px; margin-left: 10px">DANH SÁCH PHIẾU THANH TOÁN</h2>
+
+<p style="margin-left: 10px">
+    @Html.ActionLink("Tạo mới", "ThemPhieuThanhToan", "Admin", new { @class = "btn btn-success" })
+</p>
+<table class="table table-bordered" border="1" style=" padding-top: 30px; margin-left: 10px; margin-right: 20px">
+    <tr>
+        <th style="text-align: center">
+            Mã phiếu thanh toán
+        </th>
+        <th style="text-align: center">
+            Ngày lập phiếu thanh toán
+        </th>
+        <th style="text-align: center">
+            Tổng tiền
+        </th>
+        <th style="text-align: center">
+            Mã nhân viên
+        </th>
+        <th style="text-align: center">
+            Chức năng
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.MAPTT)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.NGAYLAPPTT)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.TONGTIEN)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(modelItem => item.MANV)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Sửa", "SuaPhieuThanhToan", new { id = item.MAPTT }, new { @class = "btn btn-warning" })
+                <div><a href="~/ThanhToan/ThanhToan">Thanh Toán</a></div>
+            </td>
+        </tr>
+
+    }
+</table>

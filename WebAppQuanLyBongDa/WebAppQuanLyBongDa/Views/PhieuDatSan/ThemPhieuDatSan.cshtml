@@ -1,0 +1,68 @@
+﻿@model WebAppQuanLyBongDa.Models.PHIEUDATSAN
+
+@{
+    ViewBag.Title = "ThemPhieuDatSan";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 30px; margin-left: 25px; font-weight: bold">SỬA PHIẾU ĐẶT SÂN</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        @Html.LabelFor(model => model.NGAYDATSAN, "Ngày đặt sân", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NGAYDATSAN, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NGAYDATSAN, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        @Html.LabelFor(model => model.GIODATSAN, "Giờ đặt sân", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.GIODATSAN, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.GIODATSAN, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        @Html.LabelFor(model => model.NGAYLAPPDS, "Ngày lập phiếu đặt sân", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NGAYLAPPDS, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NGAYLAPPDS, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        @Html.LabelFor(model => model.MAKH, "Mã khách hàng", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.MAKH, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.MAKH, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        @Html.LabelFor(model => model.MANV, "Mã nhân viên", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.MANV, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.MANV, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div style="padding-top: 30px; margin-left: 25px; font-weight: bold" class="form-group">
+        <div style="padding-top: 20px" class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Lưu" class="btn btn-success" />
+            @Html.ActionLink("Quay về", "DanhSachPhieuDatSan", "Admin", new { @class = "btn btn-danger" })
+        </div>
+    </div>
+</div>
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+}

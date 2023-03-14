@@ -1,0 +1,34 @@
+﻿@model WebAppQuanLyBongDa.Models.DICHVU
+@{
+    ViewBag.Title = "Chi tiết dịch vụ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="padding-top: 30px; margin-left: 25px; font-weight: bold">CHI TIẾT DỊCH VỤ</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Tên dịch vụ:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.TENDICHVU)
+        </dd>
+
+        <dt style="padding-top: 30px; margin-left: 25px; font-weight: bold">
+            Giá tiền dịch vụ:
+        </dt>
+
+        <dd style="padding-top: 30px; margin-left: 25px">
+            @Html.DisplayFor(model => model.GIATIEN)
+        </dd>
+
+    </dl>
+</div>
+<p style="padding-top: 30px; margin-left: 25px">
+    @Html.ActionLink("Chỉnh sửa", "SuaDichVu", new { id = Model.MADICHVU }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Quay về", "DanhSachDichVu", "Admin", new { @class = "btn btn-danger" })
+</p>
+
